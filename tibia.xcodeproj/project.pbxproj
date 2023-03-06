@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		AD11737029B5521600B6296B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11736F29B5521600B6296B /* AppDelegate.swift */; };
 		AD11737229B5521600B6296B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11737129B5521600B6296B /* SceneDelegate.swift */; };
-		AD11737429B5521600B6296B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11737329B5521600B6296B /* ViewController.swift */; };
-		AD11737729B5521600B6296B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD11737529B5521600B6296B /* Main.storyboard */; };
+		AD11737429B5521600B6296B /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11737329B5521600B6296B /* MainTabbarViewController.swift */; };
 		AD11737929B5521700B6296B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD11737829B5521700B6296B /* Assets.xcassets */; };
 		AD11737C29B5521700B6296B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD11737A29B5521700B6296B /* LaunchScreen.storyboard */; };
+		AD11738729B5545E00B6296B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11738629B5545E00B6296B /* HomeViewController.swift */; };
+		AD11738929B558AD00B6296B /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11738829B558AD00B6296B /* WorldsViewController.swift */; };
+		AD11738B29B558B700B6296B /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11738A29B558B700B6296B /* FriendListViewController.swift */; };
+		AD11738D29B558BF00B6296B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11738C29B558BF00B6296B /* SearchViewController.swift */; };
+		AD11739129B5599200B6296B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11739029B5599200B6296B /* Constants.swift */; };
+		AD11739329B560D800B6296B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11739229B560D800B6296B /* NewsTableViewCell.swift */; };
+		AD11739629B561B300B6296B /* NewsTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11739529B561B300B6296B /* NewsTableViewCellViewModel.swift */; };
+		AD11739829B564C100B6296B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11739729B564C100B6296B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD11736C29B5521600B6296B /* tibia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tibia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD11736F29B5521600B6296B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD11737129B5521600B6296B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD11737329B5521600B6296B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD11737629B5521600B6296B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD11737329B5521600B6296B /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		AD11737829B5521700B6296B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD11737B29B5521700B6296B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD11737D29B5521700B6296B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD11738629B5545E00B6296B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AD11738829B558AD00B6296B /* WorldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
+		AD11738A29B558B700B6296B /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		AD11738C29B558BF00B6296B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AD11739029B5599200B6296B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD11739229B560D800B6296B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		AD11739529B561B300B6296B /* NewsTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		AD11739729B564C100B6296B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		AD11736E29B5521600B6296B /* tibia */ = {
 			isa = PBXGroup;
 			children = (
-				AD11736F29B5521600B6296B /* AppDelegate.swift */,
-				AD11737129B5521600B6296B /* SceneDelegate.swift */,
-				AD11737329B5521600B6296B /* ViewController.swift */,
-				AD11737529B5521600B6296B /* Main.storyboard */,
-				AD11737829B5521700B6296B /* Assets.xcassets */,
-				AD11737A29B5521700B6296B /* LaunchScreen.storyboard */,
+				AD11738F29B5597B00B6296B /* Classes */,
+				AD11738429B5541600B6296B /* Resources */,
+				AD11739429B5617D00B6296B /* ViewModels */,
+				AD11738529B5543000B6296B /* Views */,
+				AD11738329B5540100B6296B /* Controllers */,
 				AD11737D29B5521700B6296B /* Info.plist */,
 			);
 			path = tibia;
+			sourceTree = "<group>";
+		};
+		AD11738329B5540100B6296B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD11737329B5521600B6296B /* MainTabbarViewController.swift */,
+				AD11738629B5545E00B6296B /* HomeViewController.swift */,
+				AD11738829B558AD00B6296B /* WorldsViewController.swift */,
+				AD11738A29B558B700B6296B /* FriendListViewController.swift */,
+				AD11738C29B558BF00B6296B /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD11738429B5541600B6296B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD11736F29B5521600B6296B /* AppDelegate.swift */,
+				AD11737129B5521600B6296B /* SceneDelegate.swift */,
+				AD11737829B5521700B6296B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD11738529B5543000B6296B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD11737A29B5521700B6296B /* LaunchScreen.storyboard */,
+				AD11739229B560D800B6296B /* NewsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD11738F29B5597B00B6296B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD11739029B5599200B6296B /* Constants.swift */,
+				AD11739729B564C100B6296B /* Extensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD11739429B5617D00B6296B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD11739529B561B300B6296B /* NewsTableViewCellViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +188,6 @@
 			files = (
 				AD11737C29B5521700B6296B /* LaunchScreen.storyboard in Resources */,
 				AD11737929B5521700B6296B /* Assets.xcassets in Resources */,
-				AD11737729B5521600B6296B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD11737429B5521600B6296B /* ViewController.swift in Sources */,
+				AD11737429B5521600B6296B /* MainTabbarViewController.swift in Sources */,
+				AD11738D29B558BF00B6296B /* SearchViewController.swift in Sources */,
 				AD11737029B5521600B6296B /* AppDelegate.swift in Sources */,
+				AD11738B29B558B700B6296B /* FriendListViewController.swift in Sources */,
 				AD11737229B5521600B6296B /* SceneDelegate.swift in Sources */,
+				AD11738729B5545E00B6296B /* HomeViewController.swift in Sources */,
+				AD11739629B561B300B6296B /* NewsTableViewCellViewModel.swift in Sources */,
+				AD11738929B558AD00B6296B /* WorldsViewController.swift in Sources */,
+				AD11739129B5599200B6296B /* Constants.swift in Sources */,
+				AD11739829B564C100B6296B /* Extensions.swift in Sources */,
+				AD11739329B560D800B6296B /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD11737529B5521600B6296B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD11737629B5521600B6296B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD11737A29B5521700B6296B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +352,9 @@
 				INFOPLIST_FILE = tibia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +380,9 @@
 				INFOPLIST_FILE = tibia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
